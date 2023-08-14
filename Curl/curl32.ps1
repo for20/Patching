@@ -48,4 +48,4 @@ $owner = [System.Security.Principal.NTAccount]"NT SERVICE\TrustedInstaller"
 $acl = Get-Acl $targetPath
 $acl.SetOwner($owner)
 Set-Acl -Path $targetPath -AclObject $acl
-C:\Windows\SysWOW64\curl.exe --version
+C:\Windows\System32\curl.exe --version
